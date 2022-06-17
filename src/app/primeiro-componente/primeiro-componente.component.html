@@ -1,2 +1,8 @@
 <h2>primeiro-componente works!</h2>
 <p>{{ nome }}</p>
+<div>
+    {{ data1 | date : 'dd/MM/yyyy HH:mm' }}
+</div>
+
+<button (click)="mostrarNascimento()" type="button">Clique aqui!</button>
+
